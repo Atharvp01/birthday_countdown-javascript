@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    font-family: 'Sora', sans-serif;
+    min-height: 100vh;
+}
+
+body h1{
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.minutes{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.seconds{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: center;
+}
