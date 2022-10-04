@@ -59,3 +59,43 @@ body h1{
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    body{
+        max-height: 10vh;
+        /* background-image:; */
+        /* background-size: auto; */
+        /* background-position: center center; */
+        background-attachment: fixed; 
+        line-height: 1.5;
+    }
+    .days{
+        padding: 0.1rem 0.5rem;
+    }
+    .hours{
+        padding: 0.1rem 0.5rem;
+    }
+    .minutes{
+        padding: 0.1rem 0.5rem;
+    }
+    .seconds{
+        padding: 0.1rem 00.5rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        max-width: 500px;
+        font-size: 1.5rem;
+        max-width: 226px;
+        margin-left: 5rem;
+    }
+    .container{
+        max-width: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: minmax(100px,auto);
+        margin: 5rem auto;
+        gap:10px;
+        }
+  }
